@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "headers/common.h"
-#include "headers/chunk.h"
-#include "headers/debug.h"
+#include "headers\\bytecode\\chunk.h"
+#include "headers/bytecode/common.h"
+#include "headers/bytecode/debug.h"
 
 int main(int argc, const char * argv[]){
     Chunk chunk;

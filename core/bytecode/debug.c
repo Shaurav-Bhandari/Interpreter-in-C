@@ -1,7 +1,7 @@
 
 #include <stdint.h>
 #include <stdio.h>
-#include "../headers/debug.h"
+#include "../../headers/bytecode/debug.h"
 
 static int simpleInstruction(const char* name, int offset)
 {

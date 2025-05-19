@@ -1,7 +1,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 
-#include "../headers/memory.h"
+#include "../../headers/bytecode/memory.h"
 
 void* reallocate(void* pointer, size_t oldSize, size_t newSize) {
     if (newSize == 0) {
